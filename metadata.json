@@ -1,0 +1,6 @@
+{
+  "name": "Handcrafted Living",
+  "description": "An interactive exploration and sharing platform for discovering handcrafted local culinary artisans, recipes, and authentic stories.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
