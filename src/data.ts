@@ -33,7 +33,7 @@ export const featuredProducts: Product[] = [
     name: "手工炭焙武夷大红袍",
     price: 158,
     rating: 4.9,
-    image: "/src/assets/images/dahongpao_roasted_tea_1780321136760.png",
+    image: "https://i.postimg.cc/cLbXTmHt/dahongpao-roasted-tea-1780321136760.jpg",
     category: "匠心私厨",
     artisan: "筑茶隐山 (非遗茶人 陆师傅)",
     description: "选用武夷正岩核心保护区春茶茶青。严遵十八道非遗手工制茶工序，由三代制茶世家陆老先生亲自操持。使用红热荔枝木炭，历经初焙、复焙、足火三次慢火重焙，焙火极为透彻，岩骨花香入骨，极为耐泡。",
@@ -46,7 +46,7 @@ export const featuredProducts: Product[] = [
     name: "牧场直供鲜制奶酪",
     price: 56,
     rating: 4.7,
-    image: "/src/assets/images/cloud_cheese_dessert_1780396183058.png",
+    image: "https://i.postimg.cc/cCvJ705n/cloud-cheese-dessert-1780396183058.jpg",
     category: "有机素食",
     artisan: "素心斋 (奶酪匠人 娜玛)",
     description: "每日清晨采自崇明岛绿色有机牧场的带温鲜新牛奶，四小时内快速送达，通过手工滴干乳清。未注入任何人工防腐剂，仅添加少许海盐和野草莓果干，果香奶香碰撞，清凉酸爽，入口即化。",
@@ -265,7 +265,7 @@ export const mockMerchants: Merchant[] = [
     images: [
       "https://lh3.googleusercontent.com/aida-public/AB6AXuCL02gPpYYGz12qUdXY14g3tYhfls7Jol02gaGxVJ65jGmi9DasATz7yGDj1dJXtb8lj2LwzaYEN2QlBkME5oJ2AV7QgGCVymopYnuk1Y9V_s8HdylNUsmO4lSeIbO1uWFSkxszpp5uyhG6f451_Ip9WRRF9n8jRUgRF0oa0Y7Z3_iGcg5Vy9X6DuRv9Ap88FfdFTKCSkXWYdtTlXyOzMsqCbuzSQahRpFOcmpRqyd5jxETizdcqaNlr6_u69nhqVl8u4E8l8kEuQ",
       "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&q=80&w=500",
-      "/src/assets/images/dahongpao_roasted_tea_1780321136760.png"
+      "https://i.postimg.cc/cLbXTmHt/dahongpao-roasted-tea-1780321136760.jpg"
     ],
     products: [
       featuredProducts[2]
@@ -719,7 +719,7 @@ export const mockStories: Story[] = [
     title: "正岩独幽：闽北深山与炭火深处的三代焙茶绝技",
     summary: "武夷山三十六峰，陆师傅世世代代与野茶树打交道。不插电、不走捷径，在温度近40度的闷热炭焙间里坚持三天三夜的九翻慢烘，只为提炼一缕通透的“岩骨花香”。让我们走近非遗匠人陆师傅。",
     content: "在乌篷船吱呀、粉墙黛瓦的朱家角古镇，有一处几乎被世俗遗忘的角落——‘筑茶隐山’。一推开厚重的黑漆木门，热烈而深沉的荔枝木炭火气与干燥温暖的熟茶香扑鼻而来。这里的茶室主掌陆老先生，已经是制茶世家的第三代传人。他在闽北的正岩悬崖边生长，大半生都交交给了掌心中的一片叶子。 \n\n‘很多人不理解，现在的电焙箱调好温度时间，一键就能烘干，为什么还要用最原始的干松木炭、荔枝木炭火焙？’陆老先生用一把竹制茶夹挑起熟褐乌亮的条索，眼里露出一丝坚韧。‘电烘没有火的灵性。荔枝松炭燃烧时，木质纤维分解释放出极其细微的果焦气息，这种香，是以极柔和饱满的分子姿态，在几十个小时的高温烘制中，一丝一缕渗透进绿茶干枯的脉络里的。这种岩韵是‘种在茶叶骨头里’的，绝不是电发热管能模仿得来的。’ \n\n每年春季制茶，老人家都要带上唯一的徒弟，足不出林守在焙房里长达半月。焙房温度高过普通桑拿房，热窑通红。隔四个小时，就要纯手工将筛上的茶叶轻轻翻倒，力道多一分会揉脱碎末，少一分则烘火不均。焙一笼极品大红袍，前后需足火三次，历时六十多天。 \n\n静坐独幽茶室，取一盏青瓷，注一壶滚烫的古镇山泉。当沸水与大红袍相遇，那是炭香、茶香与水乳交融的过程，气流翻滚，白露飘零。抿上一口，那种浓烈而不刺喉的饱满岩韵，在喉头化作深厚醇甜。这种坚持几十年流尽汗水沉淀出来的人工风骨，才是真正能够温热灵魂的手作神髓。",
-    image: "/src/assets/images/dahongpao_roasted_tea_1780321136760.png",
+    image: "https://i.postimg.cc/cLbXTmHt/dahongpao-roasted-tea-1780321136760.jpg",
     tag: "匠人访谈",
     author: "茶道月刊 - 茗风",
     date: "2026-05-26",
@@ -741,7 +741,7 @@ export const mockStories: Story[] = [
     title: "寻找牧场里最温柔的风：在愚园路邂逅全植物“云朵乳酪”",
     summary: "娜玛擅长运用最质朴的全自然植物与崇明岛有机生鲜，手工过滤滴干乳清。在梧桐飞扬的洋房露台上，吃一口不加任何工业化学添加剂的野莓云朵奶酪，是对劳顿身体与生活的最大自然治愈。",
     content: "愚园路上的一栋古朴阳光老洋房，每到周一至周五下午，总会被一阵极其温存的轻酸果甜与澄澈的浓郁奶香所环绕。主理人娜玛是一位常年在高原与江浙沪有机牧场奔走、气质高远的女匠人。她的‘素食心经’工坊就像一座充满了薄荷与迷迭香的绿意温室。 \n\n这里的招牌‘云朵鲜奶酪’，几乎是每一位挑剔的健康轻食达人梦寐以求的圣品。‘我们不使用任何工业化的香精、色素或是明胶增稠剂，’娜玛端出一小碟凝乳如初雪般的甜豆腐。‘每天黎明前，崇明签约牧场的优质牛乳就会送达。把它们加温、静置、然后用极细密的麻布吊挂在凉爽阴凉的地窖里，仅凭牛奶自身的重力让清澈的乳清缓慢滴落十二到十六个小时。虽然出脂率极低，但过滤出的凝乳干酪，其细润度宛如刚下树的棉桃，入口即化，满是生牛乳自带的天然植物脂香与微咸。’ \n\n为了给奶酪带来层次感，娜玛在崇明野生丛林手工采摘野生草莓、樱野莓，文火煨至半碎，用其微咸、柔和的果酸调和浓郁的奶脂。品尝一口，那是一种洗尽铅华的纯粹感，细沙滑在暖舌间温润化开，野莓的果酸与甜香激发起沉睡的味蕾。在这浮躁喧闹的都市一隅，能享受到一份如此质朴而极具匠人温度 of 食物，仿佛整片田野的微风 and 阳光，都随着这一口奶酪吹拂进了每个人的身体深处。",
-    image: "/src/assets/images/cloud_cheese_dessert_1780396183058.png",
+    image: "https://i.postimg.cc/cCvJ705n/cloud-cheese-dessert-1780396183058.jpg",
     tag: "探店心得",
     author: "乐活轻食客 - 淇淇",
     date: "2026-05-27",

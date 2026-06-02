@@ -81,7 +81,7 @@ export default function CommunityReviewsView({
     {
       id: "p_tea",
       name: "大红袍慢焙火香",
-      url: "/src/assets/images/dahongpao_roasted_tea_1780321136760.png"
+      url: "https://i.postimg.cc/cLbXTmHt/dahongpao-roasted-tea-1780321136760.jpg"
     },
     {
       id: "p_wonton",
@@ -91,7 +91,7 @@ export default function CommunityReviewsView({
     {
       id: "p_organic",
       name: "手工鲜制野莓奶酪",
-      url: "/src/assets/images/cloud_cheese_dessert_1780396183058.png"
+      url: "https://i.postimg.cc/cCvJ705n/cloud-cheese-dessert-1780396183058.jpg"
     }
   ];
 
