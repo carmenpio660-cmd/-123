@@ -77,7 +77,7 @@ export default function CategoryFilterView({
         address: "上海市 静安区 愚园路 458号",
         description: "传承于滇西大山深处的黑陶罐火锅。每日空运大理苍山野生姬松茸、牛肝菌，配以散养足岁土鸡。在生铁炭火上文火慢煨4小时，汤色金黄，鲜掉眉毛，带您回归古朴林野锅气。",
         images: [
-          "/src/assets/images/chicken_hotpot_1780320216415.png", // hotpot visual
+          "https://i.postimg.cc/W1Nf3zDH/chicken-hotpot-1780320216415.jpg", // hotpot visual
           "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&q=80&w=500",
           "https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&q=80&w=500"
         ],

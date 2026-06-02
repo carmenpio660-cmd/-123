@@ -393,7 +393,7 @@ export const mockMerchants: Merchant[] = [
     address: "上海市 青浦区 朱家角古镇 东井街 16号",
     description: "朱家角古镇街坊最爱的阿婆青团。坚决不用廉价的麦青粉或人工香精，只用清明前在野地里手工采摘的真正野生艾草。经石灰水焯水、手捣成泥，再与太湖优质糯米粉揉捏成皮。中间包裹上手烤鲜蛋黄与苏式肉松，外皮碧澄，清香扑鼻，软糯极其劲道。",
     images: [
-      "/src/assets/images/meat_floss_qingtuan_1780319941941.png",
+      "https://i.postimg.cc/SRccL6P5/floss-yolk-qingtuan-1780320786151.jpg",
       "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&q=80&w=400",
       "https://images.unsplash.com/photo-1552611052-33e04de081de?auto=format&fit=crop&q=80&w=400"
     ],
@@ -403,7 +403,7 @@ export const mockMerchants: Merchant[] = [
         name: "手捣艾草咸蛋黄肉松青团",
         price: 8,
         rating: 4.9,
-        image: "/src/assets/images/meat_floss_qingtuan_1780319941941.png",
+        image: "https://i.postimg.cc/SRccL6P5/floss-yolk-qingtuan-1780320786151.jpg",
         category: "传统小吃",
         artisan: "老街阿婆 (陈阿婆)",
         description: "纯野生艾草汁泥揉皮，外包一整颗鲜剥烤酥咸蛋黄以及手工擦碎的熟猪肉松，饱满油润，软糯香极。",
@@ -651,7 +651,7 @@ export const mockMerchants: Merchant[] = [
     address: "上海市 黄浦区 顺昌路 15号",
     description: "张大叔一辆干净的小推车，一做就是三十多个春秋。萝卜必须洗净皮手工擦丝，用大粒盐腌出微苦的水分，抓大把葱碎。老熟菜油烧在大铁锅中，在磨得很亮的铁柄深勺里抹上面酱打底，压上萝卜丝香葱，放入滚油中炸至金脆。咔嚓一口，满口多汁清甜在冷风中温热了路人的心田。",
     images: [
-      "/src/assets/images/sweet_honey_cake_1780321514964.png",
+      "https://i.postimg.cc/bJD5h5Gd/sweet-honey-cake-1780321514964.jpg",
       "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&q=80&w=500",
       "https://images.unsplash.com/photo-1552611052-33e04de081de?auto=format&fit=crop&q=80&w=400"
     ],
@@ -674,7 +674,7 @@ export const mockMerchants: Merchant[] = [
         name: "手作桂花软糯蜜糕",
         price: 6,
         rating: 4.9,
-        image: "/src/assets/images/sweet_honey_cake_1780321514964.png",
+        image: "https://i.postimg.cc/bJD5h5Gd/sweet-honey-cake-1780321514964.jpg",
         category: "传统小吃",
         artisan: "老牌弄堂 (张大叔)",
         description: "精选崇明优质糯米揉粉，混入干桂花与天然百花蜜慢火蒸制。糕体温润弹牙，甜香甘怡。",

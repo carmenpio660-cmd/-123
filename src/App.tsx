@@ -123,11 +123,11 @@ export default function App() {
               ...m,
               category,
               images: [
-                "/src/assets/images/meat_floss_qingtuan_1780319941941.png",
+                "https://i.postimg.cc/SRccL6P5/floss-yolk-qingtuan-1780320786151.jpg",
                 m.images[1] || "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&q=80&w=400",
                 m.images[2] || "https://images.unsplash.com/photo-1552611052-33e04de081de?auto=format&fit=crop&q=80&w=400"
               ],
-              products: (m.products || []).map((p: any) => p.id === "p8_1" ? { ...p, image: "/src/assets/images/meat_floss_qingtuan_1780319941941.png" } : p)
+              products: (m.products || []).map((p: any) => p.id === "p8_1" ? { ...p, image: "https://i.postimg.cc/SRccL6P5/floss-yolk-qingtuan-1780320786151.jpg" } : p)
             };
           }
           if (m.id === "m11") {
