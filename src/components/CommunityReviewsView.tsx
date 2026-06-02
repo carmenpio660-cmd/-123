@@ -71,7 +71,7 @@ export default function CommunityReviewsView({
     {
       id: "p_bread",
       name: "窑炉苏醒麦香",
-      url: "/src/assets/images/regenerated_image_1780277388309.jpg"
+      url: "https://images.unsplash.com/photo-1589367920969-ab8e050bbb04?auto=format&fit=crop&q=80&w=500"
     },
     {
       id: "p_sauce",
@@ -81,7 +81,7 @@ export default function CommunityReviewsView({
     {
       id: "p_tea",
       name: "大红袍慢焙火香",
-      url: "https://images.unsplash.com/photo-1597481499750-3e6b22637e12?auto=format&fit=crop&q=80&w=400"
+      url: "/src/assets/images/dahongpao_roasted_tea_1780321136760.png"
     },
     {
       id: "p_wonton",
@@ -91,7 +91,7 @@ export default function CommunityReviewsView({
     {
       id: "p_organic",
       name: "手工鲜制野莓奶酪",
-      url: "https://images.unsplash.com/photo-1552611052-33e04de081de?auto=format&fit=crop&q=80&w=400"
+      url: "/src/assets/images/cloud_cheese_dessert_1780320552593.png"
     }
   ];
 
@@ -173,7 +173,7 @@ export default function CommunityReviewsView({
       merchantName: chosenMerchant.name,
       user: {
         name: "美食寻味",
-        avatar: "https://lh3.googleusercontent.com/aida-public/AB6AXuCCBTkFagJRH7f1-qIS-6M996dNw1SpN59Wm9183meenCmXrb3jUPyeWo8KUEpkhNEhojsLkNQ96LWtUp3H1LwLnrLLdqZ2kkbHjnlvZvCQgzv5IzyLVIzKeh7uZp7yidtinv9bNY0GG12SnIasxrvOrYLscEaMWVFzWY1ntDgfHbwo9qWoQVaPHPqwtzH5WbcccstIotByXmnC99HDdrgVlBKgtscGDoQdrNO_PSEX0T3liPY8EXUYKrF54poTJlbhpBUX7Rscvw",
+        avatar: "/src/assets/images/gourmet_avatar_dumpling_1780392533025.png",
         level: "探店先锋"
       },
       rating: {
@@ -273,6 +273,21 @@ export default function CommunityReviewsView({
     <div className="space-y-8" id="community-reviews-plaza">
       {/* 1. Header Hero Display */}
       <div className="relative overflow-hidden rounded-3xl bg-linear-to-br from-amber-900 via-amber-950 to-stone-900 text-white p-8 md:p-12 shadow-xl border border-stone-800">
+        {/* Background Video */}
+        <div className="absolute inset-0 z-0 pointer-events-none overflow-hidden opacity-65">
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="w-full h-full object-cover"
+          >
+            <source src="https://www.pexels.com/zh-cn/download/video/6206263/" type="video/mp4" />
+          </video>
+          {/* Subtle dark tint overlay on top of the video to preserve rich text legibility and brand colors */}
+          <div className="absolute inset-0 bg-black/40" />
+        </div>
+
         <div className="absolute right-0 top-0 translate-x-12 -translate-y-12 w-64 h-64 rounded-full bg-amber-700/10 blur-3xl pointer-events-none" />
         <div className="absolute left-1/3 bottom-0 w-80 h-80 rounded-full bg-yellow-600/5 blur-3xl pointer-events-none" />
 
@@ -614,7 +629,7 @@ export default function CommunityReviewsView({
                     <div className="flex items-center gap-2.5">
                       <div className="w-9 h-9 rounded-full overflow-hidden border border-amber-900/10">
                         <img
-                          src="https://lh3.googleusercontent.com/aida-public/AB6AXuCCBTkFagJRH7f1-qIS-6M996dNw1SpN59Wm9183meenCmXrb3jUPyeWo8KUEpkhNEhojsLkNQ96LWtUp3H1LwLnrLLdqZ2kkbHjnlvZvCQgzv5IzyLVIzKeh7uZp7yidtinv9bNY0GG12SnIasxrvOrYLscEaMWVFzWY1ntDgfHbwo9qWoQVaPHPqwtzH5WbcccstIotByXmnC99HDdrgVlBKgtscGDoQdrNO_PSEX0T3liPY8EXUYKrF54poTJlbhpBUX7Rscvw"
+                          src="/src/assets/images/gourmet_avatar_dumpling_1780392533025.png"
                           alt="Avatar"
                           className="w-full h-full object-cover"
                           referrerPolicy="no-referrer"

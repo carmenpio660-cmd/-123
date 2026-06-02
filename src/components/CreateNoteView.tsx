@@ -31,12 +31,12 @@ export default function CreateNoteView({ merchants, onSubmitNote, onBack }: Crea
     {
        id: "note1",
        name: "窑烤欧包特写",
-       url: "/src/assets/images/regenerated_image_1780277388309.jpg"
+       url: "https://images.unsplash.com/photo-1589367920969-ab8e050bbb04?auto=format&fit=crop&q=80&w=500"
      },
     {
       id: "note2",
       name: "苏式馄饨沸水",
-      url: "/src/assets/images/regenerated_image_1780276939655.jpg"
+      url: "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&q=80&w=500"
     },
     {
       id: "note3",
@@ -46,7 +46,7 @@ export default function CreateNoteView({ merchants, onSubmitNote, onBack }: Crea
     {
       id: "note4",
       name: "高山枫蜜凝结",
-      url: "/src/assets/images/regenerated_image_1780054246786.jpg"
+      url: "/src/assets/images/wild_spring_honey_1780321765609.png"
     }
   ];
 
@@ -117,7 +117,7 @@ export default function CreateNoteView({ merchants, onSubmitNote, onBack }: Crea
       },
       location: locationText,
       author: "美食寻味",
-      avatar: "https://lh3.googleusercontent.com/aida-public/AB6AXuCCBTkFagJRH7f1-qIS-6M996dNw1SpN59Wm9183meenCmXrb3jUPyeWo8KUEpkhNEhojsLkNQ96LWtUp3H1LwLnrLLdqZ2kkbHjnlvZvCQgzv5IzyLVIzKeh7uZp7yidtinv9bNY0GG12SnIasxrvOrYLscEaMWVFzWY1ntDgfHbwo9qWoQVaPHPqwtzH5WbcccstIotByXmnC99HDdrgVlBKgtscGDoQdrNO_PSEX0T3liPY8EXUYKrF54poTJlbhpBUX7Rscvw",
+      avatar: "/src/assets/images/gourmet_avatar_dumpling_1780392533025.png",
       category: categoryName
     };
 

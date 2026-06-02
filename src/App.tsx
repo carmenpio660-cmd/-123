@@ -58,7 +58,7 @@ export default function App() {
       title: "静安老温热弄堂里的清林麦焦香",
       content: "巨鹿路深处的谷物私语一直是我周末必去的慢烤坊。清晨九点半，阳光在老梧桐梢梢探出，正落在那只满载红豆司康的生铁盘。大口咬下去，真正的石磨鲁邦老面混合红豆清泥，暖沙在齿间流落。真是有温度的手艺面包！",
       images: [
-        "/src/assets/images/regenerated_image_1780277388309.jpg"
+        "https://images.unsplash.com/photo-1589367920969-ab8e050bbb04?auto=format&fit=crop&q=80&w=500"
       ],
       tags: {
         taste: "麦香充盈",
@@ -68,7 +68,7 @@ export default function App() {
       location: "上海市 静安区 巨鹿路 758号",
       date: "2026-05-24 10:30",
       author: "美食寻味",
-      avatar: "https://lh3.googleusercontent.com/aida-public/AB6AXuCCBTkFagJRH7f1-qIS-6M996dNw1SpN59Wm9183meenCmXrb3jUPyeWo8KUEpkhNEhojsLkNQ96LWtUp3H1LwLnrLLdqZ2kkbHjnlvZvCQgzv5IzyLVIzKeh7uZp7yidtinv9bNY0GG12SnIasxrvOrYLscEaMWVFzWY1ntDgfHbwo9qWoQVaPHPqwtzH5WbcccstIotByXmnC99HDdrgVlBKgtscGDoQdrNO_PSEX0T3liPY8EXUYKrF54poTJlbhpBUX7Rscvw",
+      avatar: "/src/assets/images/gourmet_avatar_dumpling_1780392533025.png",
       category: "手工烘焙",
       likes: 128
     },
@@ -87,7 +87,7 @@ export default function App() {
       location: "上海市 青浦区 朱家角古镇 漕河街 88号",
       date: "2026-05-25 15:45",
       author: "美食寻味",
-      avatar: "https://lh3.googleusercontent.com/aida-public/AB6AXuCCBTkFagJRH7f1-qIS-6M996dNw1SpN59Wm9183meenCmXrb3jUPyeWo8KUEpkhNEhojsLkNQ96LWtUp3H1LwLnrLLdqZ2kkbHjnlvZvCQgzv5IzyLVIzKeh7uZp7yidtinv9bNY0GG12SnIasxrvOrYLscEaMWVFzWY1ntDgfHbwo9qWoQVaPHPqwtzH5WbcccstIotByXmnC99HDdrgVlBKgtscGDoQdrNO_PSEX0T3liPY8EXUYKrF54poTJlbhpBUX7Rscvw",
+      avatar: "/src/assets/images/gourmet_avatar_dumpling_1780392533025.png",
       category: "匠心私厨",
       likes: 96
     }
@@ -112,7 +112,7 @@ export default function App() {
               ...m,
               category,
               images: [
-                "/src/assets/images/regenerated_image_1780053371497.jpg",
+                "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?auto=format&fit=crop&q=80&w=500",
                 m.images[1] || "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&q=80&w=400",
                 m.images[2] || "https://images.unsplash.com/photo-1597481499750-3e6b22637e12?auto=format&fit=crop&q=80&w=400"
               ]
@@ -123,11 +123,11 @@ export default function App() {
               ...m,
               category,
               images: [
-                "/src/assets/images/regenerated_image_1780276246060.jpg",
+                "/src/assets/images/meat_floss_qingtuan_1780319941941.png",
                 m.images[1] || "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&q=80&w=400",
                 m.images[2] || "https://images.unsplash.com/photo-1552611052-33e04de081de?auto=format&fit=crop&q=80&w=400"
               ],
-              products: (m.products || []).map((p: any) => p.id === "p8_1" ? { ...p, image: "/src/assets/images/regenerated_image_1780276246060.jpg" } : p)
+              products: (m.products || []).map((p: any) => p.id === "p8_1" ? { ...p, image: "/src/assets/images/meat_floss_qingtuan_1780319941941.png" } : p)
             };
           }
           if (m.id === "m11") {
@@ -135,11 +135,11 @@ export default function App() {
               ...m,
               category,
               images: [
-                "/src/assets/images/regenerated_image_1780053899645.jpg",
+                "/src/assets/images/bamboo_rice_cake_1780320092253.png",
                 m.images[1] || "https://images.unsplash.com/photo-1552611052-33e04de081de?auto=format&fit=crop&q=80&w=400",
                 m.images[2] || "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&q=80&w=400"
               ],
-              products: (m.products || []).map((p: any) => p.id === "p11_1" ? { ...p, image: "/src/assets/images/regenerated_image_1780053899645.jpg" } : p)
+              products: (m.products || []).map((p: any) => p.id === "p11_1" ? { ...p, image: "/src/assets/images/bamboo_rice_cake_1780320092253.png" } : p)
             };
           }
           return {
@@ -519,7 +519,7 @@ export default function App() {
           >
             <div className="w-7 h-7 rounded-full overflow-hidden border border-amber-950/10 flex-shrink-0">
               <img
-                src="/src/assets/images/regenerated_image_1780057818845.jpg"
+                src="/src/assets/images/gourmet_avatar_dumpling_1780392533025.png"
                 alt="美食寻味"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"

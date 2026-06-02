@@ -7,7 +7,7 @@ export const featuredProducts: Product[] = [
     name: "石磨面粉全麦欧包",
     price: 38,
     rating: 4.9,
-    image: "/src/assets/images/regenerated_image_1780277388309.jpg",
+    image: "https://images.unsplash.com/photo-1589367920969-ab8e050bbb04?auto=format&fit=crop&q=80&w=500",
     category: "手工烘焙",
     artisan: "谷物私语 (主厨 阿麦)",
     description: "纯正石磨传统面粉，采用天然野生酵母（鲁邦种）长达24小时的低温慢速发酵工艺，配上柴火松木慢火煨烤。麦香温厚深邃，内部气孔张力十足，富含嚼劲，是纯粹谷物风味的极致体现。",
@@ -20,7 +20,7 @@ export const featuredProducts: Product[] = [
     name: "高山枫树原酿蜂蜜",
     price: 88,
     rating: 4.8,
-    image: "/src/assets/images/regenerated_image_1780054246786.jpg",
+    image: "/src/assets/images/wild_spring_honey_1780321765609.png",
     category: "有机素食",
     artisan: "林间果子铺 (蜂农 严大叔)",
     description: "采集自武夷大山深处百岁野生枫树蜜源，古法手工木箱蜂巢自然酿造。由于不经任何工厂高温过滤，完全保留了蜂蜜中的天然花粉、酶类与蜂王浆活性因子，稠如醍醐，琥珀透亮，香气深幽。",
@@ -33,7 +33,7 @@ export const featuredProducts: Product[] = [
     name: "手工炭焙武夷大红袍",
     price: 158,
     rating: 4.9,
-    image: "/src/assets/images/regenerated_image_1780277252903.jpg",
+    image: "/src/assets/images/dahongpao_roasted_tea_1780321136760.png",
     category: "匠心私厨",
     artisan: "筑茶隐山 (非遗茶人 陆师傅)",
     description: "选用武夷正岩核心保护区春茶茶青。严遵十八道非遗手工制茶工序，由三代制茶世家陆老先生亲自操持。使用红热荔枝木炭，历经初焙、复焙、足火三次慢火重焙，焙火极为透彻，岩骨花香入骨，极为耐泡。",
@@ -46,7 +46,7 @@ export const featuredProducts: Product[] = [
     name: "牧场直供鲜制奶酪",
     price: 56,
     rating: 4.7,
-    image: "/src/assets/images/regenerated_image_1780054247718.jpg",
+    image: "/src/assets/images/cloud_cheese_dessert_1780320552593.png",
     category: "有机素食",
     artisan: "素心斋 (奶酪匠人 娜玛)",
     description: "每日清晨采自崇明岛绿色有机牧场的带温鲜新牛奶，四小时内快速送达，通过手工滴干乳清。未注入任何人工防腐剂，仅添加少许海盐和野草莓果干，果香奶香碰撞，清凉酸爽，入口即化。",
@@ -75,7 +75,7 @@ export const mockMerchants: Merchant[] = [
     address: "上海市 静安区 巨鹿路 188号",
     description: "「谷物私语」诞生于对古法面包的热爱。我们坚持使用石磨全麦面粉与手工培养的天然野生鲁邦种，在古法修筑的穹顶泥窑里用苹果松木慢火煨烤，每一支面包都刻画着木火和时间的温度。主厨阿麦坚信，好面包是富有灵魂的生命体。",
     images: [
-      "/src/assets/images/regenerated_image_1780277388309.jpg",
+      "https://images.unsplash.com/photo-1589367920969-ab8e050bbb04?auto=format&fit=crop&q=80&w=500",
       "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&q=80&w=500",
       "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=500"
     ],
@@ -132,7 +132,7 @@ export const mockMerchants: Merchant[] = [
     address: "上海市 徐汇区 五原路 62号",
     description: "承载了三代人岁月的手作面坊，多年来一直靠几扇斑驳旧木门和一块手工雕刻的招牌坚守在老弄堂里。这里的银丝面完全采用大竹竿手工压制，韧性十足，汤清鲜美。最绝的是薄皮三鲜大馄饨，猪骨与整只散养鸡慢火熬汤一整夜，让人吃完暖身暖心。",
     images: [
-      "/src/assets/images/regenerated_image_1780276939655.jpg",
+      "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&q=80&w=500",
       "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&q=80&w=500",
       "https://images.unsplash.com/photo-1552611052-33e04de081de?auto=format&fit=crop&q=80&w=500"
     ],
@@ -142,7 +142,7 @@ export const mockMerchants: Merchant[] = [
         name: "手包荠菜三鲜大馄饨",
         price: 18,
         rating: 4.9,
-        image: "/src/assets/images/regenerated_image_1780276939655.jpg",
+        image: "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&q=80&w=500",
         category: "传统小吃",
         artisan: "苏式三鲜 (苏妈妈)",
         description: "苏妈妈每日清晨4点在菜场挑选的鲜嫩露水荠菜。搭配纯手工剁碎的鲜黑前腿猪肉，调以手工熬制的猪油，皮薄如蝉翼，汤鲜得掉眉毛。",
@@ -265,7 +265,7 @@ export const mockMerchants: Merchant[] = [
     images: [
       "https://lh3.googleusercontent.com/aida-public/AB6AXuCL02gPpYYGz12qUdXY14g3tYhfls7Jol02gaGxVJ65jGmi9DasATz7yGDj1dJXtb8lj2LwzaYEN2QlBkME5oJ2AV7QgGCVymopYnuk1Y9V_s8HdylNUsmO4lSeIbO1uWFSkxszpp5uyhG6f451_Ip9WRRF9n8jRUgRF0oa0Y7Z3_iGcg5Vy9X6DuRv9Ap88FfdFTKCSkXWYdtTlXyOzMsqCbuzSQahRpFOcmpRqyd5jxETizdcqaNlr6_u69nhqVl8u4E8l8kEuQ",
       "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&q=80&w=500",
-      "/src/assets/images/regenerated_image_1780277252903.jpg"
+      "/src/assets/images/dahongpao_roasted_tea_1780321136760.png"
     ],
     products: [
       featuredProducts[2]
@@ -278,25 +278,25 @@ export const mockMerchants: Merchant[] = [
   },
   {
     id: "m6",
-    name: "山野林间 柴火石磨豆腐",
-    subtitle: "青豆磨浆，柴火慢煮里的豆香纯粹",
+    name: "山野林间 柴火石磨豆腐坊",
+    subtitle: "青石碾磨，松木灶火下的一碗温热豆花",
     rating: 4.8,
     reviewCount: 164,
-    pricePerCapita: 24,
+    pricePerCapita: 18,
     distance: "1.8km",
     coordinate: { x: 45, y: 50 },
     category: "非遗工坊",
-    tags: ["#石磨手工", "#纯天然盐卤", "#豆香醇厚", "#柴焦微焦"],
+    tags: ["#石磨手工", "#纯天然盐卤", "#柴火慢熬", "#设计师手作"],
     features: ["纯素食", "无麸质", "限时优惠"],
     openingHours: "06:30 - 13:00",
     isOpen: true,
     statusText: "营业中",
-    address: "上海市 闵行区 七宝老街 45号",
-    description: "三十年坚持手作的传统豆腐坊。我们选用东北非转基因大豆，经山泉水浸泡后，由老师傅慢速黑石磨推浆。最绝的是采用老式大铁锅松木柴火慢煮，带出独特的柴焦豆香。用天然盐卤慢慢点制，其豆香醇厚，口感扎实，每一口都是原始谷物的回甘。",
+    address: "上海市 青浦区 朱家角古镇 西弄 18号",
+    description: "搬进朱家角古镇的设计师夫妇所创办的传统手作豆腐坊。淘洗颗粒饱满的大豆，经青石磨盘慢速碾浆，保留天然大豆脂香。老式大铁锅松木柴火慢煮，带出独特的柴焦微焦。纯手工徐徐点制，其豆香醇厚，口感温润滑嫩。",
     images: [
+      "/src/assets/images/tofu_pudding_dessert_1780321894382.png",
       "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&q=80&w=500",
-      "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&q=80&w=400",
-      "https://images.unsplash.com/photo-1517433456452-f9633a875f6f?auto=format&fit=crop&q=80&w=400"
+      "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&q=80&w=400"
     ],
     products: [
       {
@@ -306,11 +306,24 @@ export const mockMerchants: Merchant[] = [
         rating: 4.8,
         image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&q=80&w=400",
         category: "有机素食",
-        artisan: "山野林间 (豆农 任老汉)",
+        artisan: "山野林间 (晴子 & 阿木)",
         description: "纯天然豆浆柴火慢熬，古法盐卤点成。质地极其密实，切片不散，豆香和回甘久久不散。",
         craftingProcess: "大豆浸泡十小时，黑石磨慢转出浆，双层纱布过滤。生铁锅里烧柴火慢滚三泡，以带出微焦柴香。任老汉凭几十年直觉，用细长木勺徐徐点注天然盐卤，压石板两小时凝出香豆腐。",
         tasteNotes: ["初入口质地厚重扎实", "细嚼散发大豆纯天然脂香", "微带古法盐卤的复合清甘"],
         ingredients: ["东北有机黄大豆", "深山泉水", "东海天然盐卤汁"]
+      },
+      {
+        id: "p6_2",
+        name: "古法松火石磨手工豆腐花",
+        price: 8,
+        rating: 4.9,
+        image: "/src/assets/images/tofu_pudding_dessert_1780321894382.png",
+        category: "传统小吃",
+        artisan: "山野林间 (晴子 & 阿木)",
+        description: "精选饱满黑豆、黄豆混合碾磨，生铁锅松柴文火温热烧煮，点配出清香细滑、娇嫩温热的原生态豆腐花。",
+        craftingProcess: "清晨三点手推石磨推成细乳，纯菜籽油抹锅防焦，松木细梢文火慢煨。调配天然红盐卤一点即成，撒上紫菜碎、小干虾米、新鲜小绿野葱，淋入生抽与手工辣油。",
+        tasteNotes: ["触唇极其滑糯如脂，温甜清香", "淡淡柴焦松烟味带出古朴原始感", "葱香、虾干之咸香与红熟辣油微辛完美和融"],
+        ingredients: ["江南黑黄大豆", "本地古井清泉水", "紫菜花", "烘干虾皮", "野香葱"]
       }
     ],
     ratingsBreakdown: {
@@ -337,7 +350,7 @@ export const mockMerchants: Merchant[] = [
     address: "上海市 黄浦区 绍兴路 12号",
     description: "专事鲜花手作与低糖蜜饯的精致小店。选用清晨带露水采摘的平阴重瓣红玫瑰，手工轻揉去苦涩，拌入野生土蜂蜜，在青釉瓷罐中密封陈酿数月。我们还推出了烘焙系列的玫瑰软糕和鲜花小酥，满口繁花芬芳，甜而不腻。",
     images: [
-      "/src/assets/images/regenerated_image_1780053371497.jpg",
+      "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?auto=format&fit=crop&q=80&w=500",
       "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&q=80&w=400",
       "https://images.unsplash.com/photo-1597481499750-3e6b22637e12?auto=format&fit=crop&q=80&w=400"
     ],
@@ -347,7 +360,7 @@ export const mockMerchants: Merchant[] = [
         name: "古法岩糖玫瑰陈酿",
         price: 36,
         rating: 4.9,
-        image: "/src/assets/images/regenerated_image_1780053371497.jpg",
+        image: "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?auto=format&fit=crop&q=80&w=500",
         category: "手工烘焙",
         artisan: "平阴红粉 (云掌柜)",
         description: "选用平阴头茬重瓣春玫瑰，手工木锤轻舂至半碎，加入大块古法黄冰糖和少许纯正白酒熟化三个月以上，香气扑鼻。",
@@ -362,7 +375,7 @@ export const mockMerchants: Merchant[] = [
       ingredients: 4.9
     }
   },
-  {
+    {
     id: "m8",
     name: "老街阿婆 手工青团",
     subtitle: "艾草碎泥，那一口软糯到心底的纯朴春味",
@@ -380,7 +393,7 @@ export const mockMerchants: Merchant[] = [
     address: "上海市 青浦区 朱家角古镇 东井街 16号",
     description: "朱家角古镇街坊最爱的阿婆青团。坚决不用廉价的麦青粉或人工香精，只用清明前在野地里手工采摘的真正野生艾草。经石灰水焯水、手捣成泥，再与太湖优质糯米粉揉捏成皮。中间包裹上手烤鲜蛋黄与苏式肉松，外皮碧澄，清香扑鼻，软糯极其劲道。",
     images: [
-      "/src/assets/images/regenerated_image_1780276246060.jpg",
+      "/src/assets/images/meat_floss_qingtuan_1780319941941.png",
       "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&q=80&w=400",
       "https://images.unsplash.com/photo-1552611052-33e04de081de?auto=format&fit=crop&q=80&w=400"
     ],
@@ -390,7 +403,7 @@ export const mockMerchants: Merchant[] = [
         name: "手捣艾草咸蛋黄肉松青团",
         price: 8,
         rating: 4.9,
-        image: "/src/assets/images/regenerated_image_1780276246060.jpg",
+        image: "/src/assets/images/meat_floss_qingtuan_1780319941941.png",
         category: "传统小吃",
         artisan: "老街阿婆 (陈阿婆)",
         description: "纯野生艾草汁泥揉皮，外包一整颗鲜剥烤酥咸蛋黄以及手工擦碎的熟猪肉松，饱满油润，软糯香极。",
@@ -509,7 +522,7 @@ export const mockMerchants: Merchant[] = [
     address: "上海市 青浦区 朱家角古镇 漕平路 12号",
     description: "宋师傅守着一间斑驳的江南小木屋，几十年只做最本色的竹筒糯米蒸糕。我们选用太湖当年新鲜圆糯米，多日泉水浸泡后，在青石一锤一锤手工舂粉。将玉粉放入清晨刚从竹林中劈下的淡绿嫩竹筒中，置于杉木甑子上，以山野松木劈柴猛火蒸蒸，翠竹的微苦清香和温热的蜜甜糯面完美交融。",
     images: [
-      "/src/assets/images/regenerated_image_1780053899645.jpg",
+      "/src/assets/images/bamboo_rice_cake_1780320092253.png",
       "https://images.unsplash.com/photo-1552611052-33e04de081de?auto=format&fit=crop&q=80&w=400",
       "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&q=80&w=400"
     ],
@@ -519,7 +532,7 @@ export const mockMerchants: Merchant[] = [
         name: "古法松木淡竹筒红豆糯蒸糕",
         price: 10,
         rating: 4.8,
-        image: "/src/assets/images/regenerated_image_1780053899645.jpg",
+        image: "/src/assets/images/bamboo_rice_cake_1780320092253.png",
         category: "传统小吃",
         artisan: "手琢春山 (糕点匠 宋师傅)",
         description: "精磨糯粉、手捣红豆沙，加入野金桂花蜜，盛进新鲜淡竹筒蒸煮，清润软香。",
@@ -577,7 +590,7 @@ export const mockMerchants: Merchant[] = [
       ingredients: 5.0
     }
   },
-  {
+    {
     id: "m13",
     name: "隐溪琴石 私房汤药煲",
     subtitle: "文火砂煲，一鼎陈艾人参老鸡汤的温补",
@@ -595,7 +608,7 @@ export const mockMerchants: Merchant[] = [
     address: "上海市 青浦区 练塘镇 贞溪南路 102号",
     description: "藏身于古溪水榭深处的养生私房汤房。主厨老陆精挑细选各省深山野生草药，依据二十四节气，坚持用天然红陶砂罐，以极慢的竹叶和干杉木微火，慢炖林下散养土鸡整整十个小时。汤色澄澈纯美，滋补调理，通体安舒。",
     images: [
-      "https://images.unsplash.com/photo-1552611052-33e04de081de?auto=format&fit=crop&q=80&w=500",
+      "/src/assets/images/herbal_chicken_soup_1780321367407.png",
       "https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&q=80&w=400",
       "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&q=80&w=400"
     ],
@@ -605,11 +618,11 @@ export const mockMerchants: Merchant[] = [
         name: "二十四节气人参陈皮慢炖土鸡汤",
         price: 198,
         rating: 4.9,
-        image: "https://images.unsplash.com/photo-1552611052-33e04de081de?auto=format&fit=crop&q=80&w=400",
+        image: "/src/assets/images/herbal_chicken_soup_1780321367407.png",
         category: "私房膳食",
         artisan: "老陆",
         description: "以深山散养土老鸡为底，配伍吉林野生参片和新会优质陈皮，盖面抹泥。架在松木炭炉上以极文火丝丝慢煨半日。",
-        craftingProcess: "将温热的土鸡碎块连同野生吉林人参、正秋陈皮一同填入优质陶质内煲里，加入野生陈艾与温火慢煨12小时，不添加任何盐与味精，慢火熬炖十小时，让药材元气渗进鸡肉，温醇鲜甜。",
+        craftingProcess: "将温热 of 土鸡碎块连同野生吉林人参、正秋陈皮一同填入优质陶质内煲里，加入野生陈艾与温火慢煨12小时，不添加任何盐与味精，慢火熬炖十小时，让药材元气渗进鸡肉，温醇鲜甜。",
         tasteNotes: ["药香极其幽柔，参香、陈皮香、艾香完美交扣", "亮黄色汤底没有半分多余油脂，细腻香甜", "鸡肉软骨炖得酥碎，嚼汁鲜酥"],
         ingredients: ["高山走地土母母鸡", "吉林野山生熟参", "正庄新会老陈皮", "野生干艾叶"]
       }
@@ -638,9 +651,9 @@ export const mockMerchants: Merchant[] = [
     address: "上海市 黄浦区 顺昌路 15号",
     description: "张大叔一辆干净的小推车，一做就是三十多个春秋。萝卜必须洗净皮手工擦丝，用大粒盐腌出微苦的水分，抓大把葱碎。老熟菜油烧在大铁锅中，在磨得很亮的铁柄深勺里抹上面酱打底，压上萝卜丝香葱，放入滚油中炸至金脆。咔嚓一口，满口多汁清甜在冷风中温热了路人的心田。",
     images: [
+      "/src/assets/images/sweet_honey_cake_1780321514964.png",
       "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&q=80&w=500",
-      "https://images.unsplash.com/photo-1552611052-33e04de081de?auto=format&fit=crop&q=80&w=400",
-      "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&q=80&w=400"
+      "https://images.unsplash.com/photo-1552611052-33e04de081de?auto=format&fit=crop&q=80&w=400"
     ],
     products: [
       {
@@ -655,6 +668,19 @@ export const mockMerchants: Merchant[] = [
         craftingProcess: "鲜甜萝卜手擦匀细，挤干涩汁。开匀稀面糊。大铁勺抹糊垫底，填满重重萝卜丝、嫩葱花，最后封顶面糊。下入滚烫的纯黄菜籽油里，控油炸制，直至自行脱模，表面炸出起酥金黄泡。",
         tasteNotes: ["外表极其香油酥脆，一嘴渣", "萝卜丝中吸饱了热油和葱花香，甜而烫口", "面粉壳淡淡微焦带有天然菜籽油脂芳甜"],
         ingredients: ["太湖大沙甜白萝卜", "春熟野小葱", "手生黄菜籽油", "中筋面粉"]
+      },
+      {
+        id: "p14_2",
+        name: "手作桂花软糯蜜糕",
+        price: 6,
+        rating: 4.9,
+        image: "/src/assets/images/sweet_honey_cake_1780321514964.png",
+        category: "传统小吃",
+        artisan: "老牌弄堂 (张大叔)",
+        description: "精选崇明优质糯米揉粉，混入干桂花与天然百花蜜慢火蒸制。糕体温润弹牙，甜香甘怡。",
+        craftingProcess: "糯米淘净晾干磨粉，拌入自家酿制的糖桂花。调蜜水和匀，层层铺糯米粉至竹蒸屉中。猛火蒸熟，淋上透亮的新鲜野百花蜜，趁热切成菱形块。",
+        tasteNotes: ["入口极具稻米纯正微甜，糯而不粘", "桂花清香浮现，蜜甜滋润回甘长久", "温热吃时松软可口，冷放后柔韧有嚼度"],
+        ingredients: ["高山手磨糯米粉", "手工糖腌金桂花", "高山野生百花蜂蜜", "白砂糖"]
       }
     ],
     ratingsBreakdown: {
@@ -682,7 +708,7 @@ export const mockStories: Story[] = [
     title: "周末市集漫游指南：去愚园路捕获一抹手制的治愈微光",
     summary: "又是一年秋浓。本周末愚园路创意“匠心寻味”手工美食与创艺市集再度落幕。从一块野生果干酸奶酪，到一捧非遗揉团艾青团，让我们跟随着二十位民间手作主厨的摊位，感受生活真实的纹理。",
     content: "梧桐泛黄的愚园路这周末被一阵诱人的焦糖与热高汤包围了。‘匠心寻味市集’摆出了成排温暖的灯盏，汇聚了江浙沪各路执着于‘纯手作’、‘不添加’的民间匠人。\n\n漫步到市集中央，一眼就会被娜玛的‘植物酸奶酪坊’所吸引。几块用藏青染布铺设的案板上，盛放着用麻布包起的、粉嘟嘟的有机果干鲜奶酪。‘这都是今晨5点从崇明牧场奶罐里提取的新鲜牛乳，历经四次麻布吊滤手工挤水制成，绝对没有凝乳剂和香精。’娜玛爽朗地递过来一份盛在椰壳刨片里的小勺，塞入嘴中，那是一种宛如在春风地里滚了一圈的微酸奶甜，野草莓碎颗粒的脆甜在牙齿缝里跳跃。\n\n旁边是陈爷爷和他的孙子租用的小推车。一口有些年头的大生铁锅，不时飘出辣得出魂却令人唾液横流的老豆豉焦底香。‘陈酱铺’红艳艳的招牌下挤满了一手托盘、一手摇扇的外地食客。老爷子微眯着眼守着锅：‘炒辣酱是个良心仗，人不能欺锅，手一软少翻炒了十分钟，那股椒皮里的香气便化不进菜油，味道便是空洞、浮夸的。’\n\n市集不仅有食物，更有流淌在其间的温热目光。年轻人和满头银发的大师挨肩并坐着，讨论着全麦粉研磨的网目。生活在无处不在的面片翻飞、高汤翻腾间被拉回最真实的日常本色。下个周六，不妨携一只藤编竹篮，不带目的来愚园路走一走，在日常手作微光里偶遇那款专属于你的烟火好味道。",
-    image: "/src/assets/images/regenerated_image_1780276107492.jpg",
+    image: "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&q=80&w=600",
     tag: "市集寻宝",
     author: "行摄行旅 - 林探长",
     date: "2026-05-24",
@@ -693,7 +719,7 @@ export const mockStories: Story[] = [
     title: "正岩独幽：闽北深山与炭火深处的三代焙茶绝技",
     summary: "武夷山三十六峰，陆师傅世世代代与野茶树打交道。不插电、不走捷径，在温度近40度的闷热炭焙间里坚持三天三夜的九翻慢烘，只为提炼一缕通透的“岩骨花香”。让我们走近非遗匠人陆师傅。",
     content: "在乌篷船吱呀、粉墙黛瓦的朱家角古镇，有一处几乎被世俗遗忘的角落——‘筑茶隐山’。一推开厚重的黑漆木门，热烈而深沉的荔枝木炭火气与干燥温暖的熟茶香扑鼻而来。这里的茶室主掌陆老先生，已经是制茶世家的第三代传人。他在闽北的正岩悬崖边生长，大半生都交交给了掌心中的一片叶子。 \n\n‘很多人不理解，现在的电焙箱调好温度时间，一键就能烘干，为什么还要用最原始的干松木炭、荔枝木炭火焙？’陆老先生用一把竹制茶夹挑起熟褐乌亮的条索，眼里露出一丝坚韧。‘电烘没有火的灵性。荔枝松炭燃烧时，木质纤维分解释放出极其细微的果焦气息，这种香，是以极柔和饱满的分子姿态，在几十个小时的高温烘制中，一丝一缕渗透进绿茶干枯的脉络里的。这种岩韵是‘种在茶叶骨头里’的，绝不是电发热管能模仿得来的。’ \n\n每年春季制茶，老人家都要带上唯一的徒弟，足不出林守在焙房里长达半月。焙房温度高过普通桑拿房，热窑通红。隔四个小时，就要纯手工将筛上的茶叶轻轻翻倒，力道多一分会揉脱碎末，少一分则烘火不均。焙一笼极品大红袍，前后需足火三次，历时六十多天。 \n\n静坐独幽茶室，取一盏青瓷，注一壶滚烫的古镇山泉。当沸水与大红袍相遇，那是炭香、茶香与水乳交融的过程，气流翻滚，白露飘零。抿上一口，那种浓烈而不刺喉的饱满岩韵，在喉头化作深厚醇甜。这种坚持几十年流尽汗水沉淀出来的人工风骨，才是真正能够温热灵魂的手作神髓。",
-    image: "/src/assets/images/regenerated_image_1780281286786.jpg",
+    image: "/src/assets/images/dahongpao_roasted_tea_1780321136760.png",
     tag: "匠人访谈",
     author: "茶道月刊 - 茗风",
     date: "2026-05-26",
@@ -714,8 +740,8 @@ export const mockStories: Story[] = [
     id: "s5",
     title: "寻找牧场里最温柔的风：在愚园路邂逅全植物“云朵乳酪”",
     summary: "娜玛擅长运用最质朴的全自然植物与崇明岛有机生鲜，手工过滤滴干乳清。在梧桐飞扬的洋房露台上，吃一口不加任何工业化学添加剂的野莓云朵奶酪，是对劳顿身体与生活的最大自然治愈。",
-    content: "愚园路上的一栋古朴阳光老洋房，每到周一至周五下午，总会被一阵极其温存的轻酸果甜与澄澈的浓郁奶香所环绕。主理人娜玛是一位常年在高原与江浙沪有机牧场奔走、气质高远的女匠人。她的‘素食心经’工坊就像一座充满了薄荷与迷迭香的绿意温室。 \n\n这里的招牌‘云朵鲜奶酪’，几乎是每一位挑剔的健康轻食达人梦寐以求的圣品。‘我们不使用任何工业化的香精、色素或是明胶增稠剂，’娜玛端出一小碟凝乳如初雪般的甜豆腐。‘每天黎明前，崇明签约牧场的优质牛乳就会送达。把它们加温、静置、然后用极细密的麻布吊挂在凉爽阴凉的地窖里，仅凭牛奶自身的重力让清澈的乳清缓慢滴落十二到十六个小时。虽然出脂率极低，但过滤出的凝乳干酪，其细润度宛如刚下树的棉桃，入口即化，满是生牛乳自带的天然植物脂香与微咸。’ \n\n为了给奶酪带来层次感，娜玛在崇明野生丛林手工采摘野生草莓、樱野莓，文火煨至半碎，用其微咸、柔和的果酸调和浓郁的奶脂。品尝一口，那是一种洗尽铅华的纯粹感，细沙滑在暖舌间温润化开，野莓的果酸与甜香激发起沉睡的味蕾。在这浮躁喧闹的都市一隅，能享受到一份如此质朴而极具匠人温度的食物，仿佛整片田野的微风 and 阳光，都随着这一口奶酪吹拂进了每个人的身体深处。",
-    image: "/src/assets/images/regenerated_image_1780054248464.jpg",
+    content: "愚园路上的一栋古朴阳光老洋房，每到周一至周五下午，总会被一阵极其温存的轻酸果甜与澄澈的浓郁奶香所环绕。主理人娜玛是一位常年在高原与江浙沪有机牧场奔走、气质高远的女匠人。她的‘素食心经’工坊就像一座充满了薄荷与迷迭香的绿意温室。 \n\n这里的招牌‘云朵鲜奶酪’，几乎是每一位挑剔的健康轻食达人梦寐以求的圣品。‘我们不使用任何工业化的香精、色素或是明胶增稠剂，’娜玛端出一小碟凝乳如初雪般的甜豆腐。‘每天黎明前，崇明签约牧场的优质牛乳就会送达。把它们加温、静置、然后用极细密的麻布吊挂在凉爽阴凉的地窖里，仅凭牛奶自身的重力让清澈的乳清缓慢滴落十二到十六个小时。虽然出脂率极低，但过滤出的凝乳干酪，其细润度宛如刚下树的棉桃，入口即化，满是生牛乳自带的天然植物脂香与微咸。’ \n\n为了给奶酪带来层次感，娜玛在崇明野生丛林手工采摘野生草莓、樱野莓，文火煨至半碎，用其微咸、柔和的果酸调和浓郁的奶脂。品尝一口，那是一种洗尽铅华的纯粹感，细沙滑在暖舌间温润化开，野莓的果酸与甜香激发起沉睡的味蕾。在这浮躁喧闹的都市一隅，能享受到一份如此质朴而极具匠人温度 of 食物，仿佛整片田野的微风 and 阳光，都随着这一口奶酪吹拂进了每个人的身体深处。",
+    image: "/src/assets/images/cloud_cheese_dessert_1780320552593.png",
     tag: "探店心得",
     author: "乐活轻食客 - 淇淇",
     date: "2026-05-27",
@@ -737,7 +763,7 @@ export const mockStories: Story[] = [
     title: "追寻一粒糯米的自我修行：寻访弄堂老手艺竹筒蒸糕",
     summary: "隐藏在朱家角弄堂的老伯手作竹筒蒸糕，坚持选用当年太湖新鲜圆糯米。历经十二道繁复工序、经杉木甑子古法柴烧两小时。清甜软糯而不粘牙，散发江南古朴的竹叶幽香，是难得的非遗甜美。",
     content: "走进青浦朱家角古镇，清晨的河道两岸笼罩在乳白色的薄薄晨雾之中。在深宅大院的一堵黛瓦墙下，升腾起几股滚烫而带有清洌杉木与翠竹香气的浓浓水汽。七十岁的宋师傅，正微眯着眼睛，用一只斑驳红漆长筷挑起大竹罱中枚小巧、圆滚、洁白如羊脂玉的竹筒蒸糕。 \n\n宋师傅家的糯米蒸糕，在江南一带有口皆碑。‘要做出真正松软甘润、放冷也毫不干硬的老腔调蒸糕，大有讲究。太湖圆糯米洗净后，必须在山泉水里泡满十三个小时。手工在石磨上磨出浆，大白棉布袋扎紧，用大青石重重压去七成水。之后，还得用细细铜网筛出如同初雪般的颗粒。在这个过程里，多一分水会粘牙成浆，少一分水则粗糙掉砂。’宋师傅熟练地将糯面扑入新鲜劈下的翠绿淡竹筒中，中间轻轻捻入两颗自己用桂蜜慢煨的熟红豆。 \n\n柴灶大火渐旺，热气透出杉木盖。在接近蒸汽最高点的二十分钟里，淡竹筒里的丰富纤维素及清油，与饱浸桂花香的糯米分子深度碰撞。起锅时趁热一抖，玉粉红豆糕滑溜而落。一咬下去，外极软糯湿润，中间糯米粒粒带筋，桂花原蜜的清甜与淡竹沁香交融，不觉齁甜，只有一种朴实纯真的自然芬芳。生活也许在现代科技红利中走得太快，但只要这古朴柴火老灶升起，那一筷子软糯，就能把人们瞬间拉回外婆家摇椅上的江南暖夏。",
-    image: "/src/assets/images/regenerated_image_1780054249697.jpg",
+    image: "/src/assets/images/bamboo_rice_cake_1780320092253.png",
     tag: "市集寻宝",
     author: "江南食趣 - 阿珍",
     date: "2026-05-25",
@@ -748,7 +774,7 @@ export const mockStories: Story[] = [
     title: "深山悬崖上的甘甜传奇：蜂农严大叔进山寻野蜂春蜜记",
     summary: "每年谷雨后，五十多岁的严大叔便要攀上武夷野山里近九十度笔直的石壁，只为检查藏在峭壁悬灌下的天然木质蜂箱，采集极品枫树春蜜。这是人类用身手与胆量，对大自然最甜的回敬。",
     content: "武夷山大安村的清晨，山岚盘踞在九曲溪畔如梦似幻。五十多岁的蜂农严大叔，正把一捆有些沉重的尼龙大绳背上泛红的肩膀，手中拿着一柄微焦的杉木烟棒。为了追寻整座山林最醇正深甜的百草金蜜，他每年这个时候都要去挑战惊险的攀岩旅程——去峭壁和山崖深处寻访野石蜂的足迹。 \n\n‘野蜂比家养意蜂机灵、皮实，它们不喜欢人居喧嚣，只会把蜂巢筑在高达数十米的绝壁裂缝或者野树蓬里。’严叔一边手脚并用地攀爬一条几乎垂直的野藤，一边大声招呼。他在数十个几乎难以落脚的岩缝里，悬挂了自家杉木劈凿、抹了原生蜂蜡的木质‘招蜂箱’。 \n\n每只木蜂箱一整年里只在秋分割一次蜜。野蜂们采集漫山遍野的高山杜鹃、野山茶花、百年野枫树等百余种中草药花蕊的精华，不打抗生素、不要白糖水，由自然界的温度 and 风力，将野蜜本身的水分自然风干到２３度以下，形成琥珀金透、香气带有一丝草木深寂与坚果焦甜的原生醍醐。 \n\n‘割蜜要讲仁义。’严叔微眯着眼，吹出一缕松针淡淡青烟驱散野蜂，仅用细钢丝极轻极准地片下三分之二饱满蜜牌，绝不伤损幼蜂底座。‘人把事做绝了，来年野蜂就会弃箱搬家。人敬森林一尺，森林还人一丈。’刚割下的生蜜用多层干净棉纱布滴滤沉淀，装进小瓦罐。挖起一勺，亮汪汪的蜂蜜稠如脂玉，抿在嘴里有一股清晨露水拍过万叶的幽然草木凉香，回甘带有令人震撼的矿物高山韵调。这种伴随生命冒险与对自然极度敬畏孕育出的蜜甜，是这个速食世界最圣洁、最无可挑剔的手作珍宝。",
-    image: "/src/assets/images/regenerated_image_1780054251040.jpg",
+    image: "/src/assets/images/wild_spring_honey_1780321765609.png",
     tag: "探店心得",
     author: "山野拾遗 - 老金",
     date: "2026-05-22",
@@ -770,7 +796,7 @@ export const mockStories: Story[] = [
     title: "石磨上的豆蔻年华：一对设计师夫妇在朱家角开的柴火豆腐坊",
     summary: "阿木与晴子选择放下写字楼的键盘与图纸，隐入古镇，用一架沉重的青石磨盘、和清晨四点在冷风中点燃的泥炉柴灶，揉磨一盘充满温热植物大豆香的新鲜手作豆浆。",
     content: "朱家角西弄的一角，在一张用几块磨盘拼接而成的灰度石桌上，我们见到了刚刚给土灶添柴回来的阿木。他和他的妻子晴子都毕业于上海核心美院，却在三年前作出了一个在外人看来惊世骇俗的举动：搬进上海最隐秘的古镇深处，开办了‘野林间豆腐坊’。\n\n‘大家都觉得做豆腐是苦力活、脏活。但当你跨着两百斤的青石磨盘，在沉稳的摩擦声里看着白花花、香暖高热的醇纯豆浆像融化的白玉般流在滤布上时，你会感受到极度的舒适和宁静。’晴子系着灰黄色的染布头巾，神情怡然。 \n\n每天清晨三点，两人就要淘洗颗粒饱满的有机黑豆与黄豆。石磨压面碾浆能保持大豆内部细胞活性，免受电磨高速切割升温产生的苦涩。他们的灶不插电，老老实实用红松木和桑木柴叶烧火。大锅滚沸时，面上的金黄泡沫豆腐皮厚实无比，这就是毫无豆浆精催化的最好证明。卤水点得克制轻柔，成豆腐娇嫩鲜弹，带着丝丝松木柴烟的焦香。许多周边的年轻人早起，就是为了来石桌旁喝一碗撒着碧绿野葱、生抽和手工磨碎的虾皮热豆腐花，这是充满大自然力量的饱满早晨。",
-    image: "https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?auto=format&fit=crop&q=80&w=600",
+    image: "/src/assets/images/tofu_pudding_dessert_1780321894382.png",
     tag: "匠人访谈",
     author: "青绿手记 - 小林",
     date: "2026-05-29",
@@ -781,7 +807,7 @@ export const mockStories: Story[] = [
     title: "一温热的热汤：隐溪琴房里的八小时紫砂药煲参鸡汤",
     summary: "隐身于小桥古窗一隅的琴石膳舍，琴声冷冽幽远。老板不卖网红轻食，只坚持用传世三代的紫砂煲和山泉水煨黑鸡、人参、黄芪足足八个小时，在登桌前更需要投入一块滚烫火成岩。",
     content: "跨入高高的木质门槛，瞬间会被优雅深沉的竹箫与七弦古琴的声音包围。这里的主办人是一位熟稔琴乐与中草药食同源的养生茶人。这里的每一只招牌‘汤药煲’，都需要经过一整天极慢的等待。 \n\n‘现在的饭店用不锈钢大锅、高压气阀，四十分钟就能把鸡肉吹得肉松汤烂。但那纯是高压破坏。我们选用沉淀多年的紫砂药煲，其砂质带有天然的铁、锌等微量元素，和水、艾草、人参、枸杞缓慢受热八小时。大火煮皮、中火煨筋、文火浸骨，才能把草本的清苦化为深层的甘润。’ \n\n最为精巧的是他们古老的岩烹工序：在汤锅即将被黑衣阿姨托上桌前，厨师需用火炉将一块取自浙西山林、通体黑红的火山火成岩彻底烤红炙热，然后当着食客的面用特制生铁夹平稳投入沸鸡汤中。滚烫的坚硬矿石遇汤瞬间爆发出沉闷的草皮、人参和松木香烟，油脂和汤质在此刻深度碰撞，清油在一眨眼内被吸附分解。端起粗陶小碗啜一口：汤金色亮，黑土鸡肉丝软糯温甜。在这古雅琴声里，所有工作日累积的重负和焦虑，仿佛都被这一碗温热、深邃的手作汤药彻底治愈。",
-    image: "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&q=80&w=600",
+    image: "/src/assets/images/herbal_chicken_soup_1780321367407.png",
     tag: "探店心得",
     author: "东方养生道 - 妙妙",
     date: "2026-05-30",
@@ -792,7 +818,7 @@ export const mockStories: Story[] = [
     title: "春意、赤豆与野生草莓香油：徐阿婆的古法手作艾草青团",
     summary: "在机械青团、香精艾粉充斥的当下。朱家角老弄堂的徐阿婆，仍然坚持每日在后山背着竹筐人工割青，用大石臼将鲜艾草捣碎。杉木蒸屉开笼的瞬间，满街都是质朴的原野芳香。",
     content: "每年春分至端午，大批渴望吃到老底子手艺的年轻人，就会从四面八方慕名涌入朱家角的大石弄。年过七旬的徐阿婆戴着副老花镜，在一只饱经岁月擦洗磨损的杉木大盆前，动作温厚而规律地搓揉着一团墨绿色的糯米面。\n\n阿婆家的青团是公认的‘原野香气’。‘好艾叶是种出来的。我们不用市面上的冷冻干艾粉来染色，只用自家露水未干时采下的鲜艾。在热水锅里加入少许面碱焯去艾叶的涩气，取出后必须在大石臼里双手持长木棒舂烂成细腻的艾叶浆，连叶片里的极细纤维一并揉进糯米里。’\n\n而阿婆家的红豆馅更是独树一帜的秘密——红小豆浸泡整夜，文火炖到融沙，在生铁锅里用菜油小火推满三个小时。蒸熟出屉的青团呈现出生机如碧的黑墨玉色，阿婆用干净细刷，在每个青团温热的脊背上轻轻刷上一层自制的、极轻盈纯正的野草莓草本提取香油。一咬下去，外皮有难以置信的艾草微涩以及浓郁草木清气，赤豆沙在口中呈浓郁软沙质，甜咸度高雅适口，两块钱一个。在阿婆那一双揉了五十年艾泥、厚实温暖的手前，不仅味蕾得到了原野的喂养，心灵也收获了久违的人情温存。",
-    image: "/src/assets/images/regenerated_image_1780278600235.jpg",
+    image: "/src/assets/images/floss_yolk_qingtuan_1780320786151.png",
     tag: "市集寻宝",
     author: "食野寻春 - 楠楠",
     date: "2026-05-31",
@@ -807,7 +833,7 @@ export const initialReviews: Review[] = [
     merchantName: "谷物私语",
     user: {
       name: "美食寻味",
-      avatar: "https://lh3.googleusercontent.com/aida-public/AB6AXuCCBTkFagJRH7f1-qIS-6M996dNw1SpN59Wm9183meenCmXrb3jUPyeWo8KUEpkhNEhojsLkNQ96LWtUp3H1LwLnrLLdqZ2kkbHjnlvZvCQgzv5IzyLVIzKeh7uZp7yidtinv9bNY0GG12SnIasxrvOrYLscEaMWVFzWY1ntDgfHbwo9qWoQVaPHPqwtzH5WbcccstIotByXmnC99HDdrgVlBKgtscGDoQdrNO_PSEX0T3liPY8EXUYKrF54poTJlbhpBUX7Rscvw",
+      avatar: "/src/assets/images/gourmet_avatar_dumpling_1780392533025.png",
       level: "资深探店 pioneer"
     },
     rating: {
@@ -831,7 +857,7 @@ export const initialReviews: Review[] = [
     merchantName: "苏式三鲜 暖心馄饨",
     user: {
       name: "美食寻味",
-      avatar: "https://lh3.googleusercontent.com/aida-public/AB6AXuCCBTkFagJRH7f1-qIS-6M996dNw1SpN59Wm9183meenCmXrb3jUPyeWo8KUEpkhNEhojsLkNQ96LWtUp3H1LwLnrLLdqZ2kkbHjnlvZvCQgzv5IzyLVIzKeh7uZp7yidtinv9bNY0GG12SnIasxrvOrYLscEaMWVFzWY1ntDgfHbwo9qWoQVaPHPqwtzH5WbcccstIotByXmnC99HDdrgVlBKgtscGDoQdrNO_PSEX0T3liPY8EXUYKrF54poTJlbhpBUX7Rscvw",
+      avatar: "/src/assets/images/gourmet_avatar_dumpling_1780392533025.png",
       level: "资深探店 pioneer"
     },
     rating: {
@@ -843,7 +869,7 @@ export const initialReviews: Review[] = [
     content: "弄堂里传了三代的味道，两张木桌，却常常排满了开着玛莎拉蒂和骑自行车的食客。苏妈妈的手包荠菜馄饨味道真的正。清晨露水荠菜香气，混合着手剁黑前腿肉，肉质弹韧，一咬便是饱满金黄的鲜汤。汤底里放了大量的紫菜、太湖白眼虾米和少许秘炼猪油，一勺热汤下汤，极度宽慰。苏老伯的面条则是全人工竹升一压到底，嚼劲爽滑，简直是上海少有的本帮风骨手作，人情味拉满！",
     images: [
       "https://lh3.googleusercontent.com/aida-public/AB6AXuBVrCLdsqvheLR2rmufTlbzQmCNL0zMfigSnVbAjPsZa9t1P7HAF3UXT7s0xYSApgLESdwjtXWGywdNKEv9UK24bueDuj6RAzwSG33Te0gBvWKj80KB-9tv9IrdBj66lHZwstUmIY6x088ewo1x6Cl72wd4hKrMtZ9V32tYkG3xuajUTJyhx3iHfumKeu8Nv6R-tNzkrj5Plxt-9JtUC6Pgv_KxLOvUfkLpgzOnStspO2n3E2aCibHvo1BP9DI8CyS1j-sJ6nnd2A",
-      "/src/assets/images/regenerated_image_1780276939655.jpg"
+      "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&q=80&w=500"
     ],
     date: "2026-05-24 11:15",
     likes: 38,

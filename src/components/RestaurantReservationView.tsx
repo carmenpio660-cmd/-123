@@ -206,29 +206,19 @@ export default function RestaurantReservationView({ merchants, onSelectMerchant 
     <div className="space-y-8" id="restaurant-booking-root">
       {/* Dynamic Header visual widget */}
       <div className="relative rounded-3xl overflow-hidden bg-stone-900 text-stone-100 p-8 md:p-12 shadow-md border border-stone-800">
-        <div className="absolute inset-0 overflow-hidden">
+        {/* Background Video */}
+        <div className="absolute inset-0 z-0 pointer-events-none overflow-hidden opacity-65">
           <video
             autoPlay
             loop
             muted
             playsInline
-            className="w-full h-full object-cover opacity-45 pointer-events-none"
+            className="w-full h-full object-cover"
           >
-            <source
-              src="https://images.pexels.com/video-files/6645700/6645700-uhd_2160_3840_25fps.mp4"
-              type="video/mp4"
-            />
-            <source
-              src="https://images.pexels.com/video-files/6645700/6645700-hd_1920_1080_25fps.mp4"
-              type="video/mp4"
-            />
-            <source
-              src="https://www.pexels.com/download/video/6645700/"
-              type="video/mp4"
-            />
+            <source src="https://www.pexels.com/zh-cn/download/video/6645796/" type="video/mp4" />
           </video>
         </div>
-        <div className="absolute inset-0 bg-linear-to-r from-stone-950 via-stone-900/80 to-transparent z-5" />
+        <div className="absolute inset-0 bg-linear-to-r from-stone-950 via-stone-900/90 to-transparent" />
         
         <div className="relative z-10 max-w-2xl space-y-4">
           <div className="flex items-center gap-2">

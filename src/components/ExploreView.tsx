@@ -48,7 +48,7 @@ export default function ExploreView({
             loop
             muted
             playsInline
-            className="w-full h-full object-cover opacity-[0.45] scale-105 filter blur-[0.5px]"
+            className="w-full h-full object-cover opacity-[0.65] scale-105 filter blur-[0.5px]"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-stone-950/80 via-stone-900/50 to-transparent" />
         </div>

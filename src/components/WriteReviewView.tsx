@@ -93,7 +93,7 @@ export default function WriteReviewView({ merchant, onSelectSubmit, onBack }: Wr
       merchantName: merchant.name,
       user: {
         name: "美食寻味",
-        avatar: "https://lh3.googleusercontent.com/aida-public/AB6AXuCCBTkFagJRH7f1-qIS-6M996dNw1SpN59Wm9183meenCmXrb3jUPyeWo8KUEpkhNEhojsLkNQ96LWtUp3H1LwLnrLLdqZ2kkbHjnlvZvCQgzv5IzyLVIzKeh7uZp7yidtinv9bNY0GG12SnIasxrvOrYLscEaMWVFzWY1ntDgfHbwo9qWoQVaPHPqwtzH5WbcccstIotByXmnC99HDdrgVlBKgtscGDoQdrNO_PSEX0T3liPY8EXUYKrF54poTJlbhpBUX7Rscvw",
+        avatar: "/src/assets/images/gourmet_avatar_dumpling_1780392533025.png",
         level: "资深探店 pioneer"
       },
       rating: {
