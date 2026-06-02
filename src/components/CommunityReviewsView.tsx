@@ -91,7 +91,7 @@ export default function CommunityReviewsView({
     {
       id: "p_organic",
       name: "手工鲜制野莓奶酪",
-      url: "/src/assets/images/cloud_cheese_dessert_1780320552593.png"
+      url: "/src/assets/images/cloud_cheese_dessert_1780396183058.png"
     }
   ];
 
