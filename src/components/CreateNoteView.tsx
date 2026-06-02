@@ -46,7 +46,7 @@ export default function CreateNoteView({ merchants, onSubmitNote, onBack }: Crea
     {
       id: "note4",
       name: "高山枫蜜凝结",
-      url: "/src/assets/images/wild_spring_honey_1780321765609.png"
+      url: "https://i.postimg.cc/nhQvF1dY/wild-spring-honey-1780321765609-(1).jpg"
     }
   ];
 
