@@ -135,11 +135,11 @@ export default function App() {
               ...m,
               category,
               images: [
-                "/src/assets/images/bamboo_rice_cake_1780320092253.png",
+                "https://i.postimg.cc/L5Mtwgk6/look1.jpg",
                 m.images[1] || "https://images.unsplash.com/photo-1552611052-33e04de081de?auto=format&fit=crop&q=80&w=400",
                 m.images[2] || "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&q=80&w=400"
               ],
-              products: (m.products || []).map((p: any) => p.id === "p11_1" ? { ...p, image: "/src/assets/images/bamboo_rice_cake_1780320092253.png" } : p)
+              products: (m.products || []).map((p: any) => p.id === "p11_1" ? { ...p, image: "https://i.postimg.cc/L5Mtwgk6/look1.jpg" } : p)
             };
           }
           return {
