@@ -68,7 +68,7 @@ export default function App() {
       location: "上海市 静安区 巨鹿路 758号",
       date: "2026-05-24 10:30",
       author: "美食寻味",
-      avatar: "/src/assets/images/gourmet_avatar_dumpling_1780392533025.png",
+      avatar: "https://i.postimg.cc/ry96jBL4/artisanal-sourdough-1780274060881.jpg",
       category: "手工烘焙",
       likes: 128
     },
@@ -87,7 +87,7 @@ export default function App() {
       location: "上海市 青浦区 朱家角古镇 漕河街 88号",
       date: "2026-05-25 15:45",
       author: "美食寻味",
-      avatar: "/src/assets/images/gourmet_avatar_dumpling_1780392533025.png",
+      avatar: "https://i.postimg.cc/ry96jBL4/artisanal-sourdough-1780274060881.jpg",
       category: "匠心私厨",
       likes: 96
     }
@@ -519,7 +519,7 @@ export default function App() {
           >
             <div className="w-7 h-7 rounded-full overflow-hidden border border-amber-950/10 flex-shrink-0">
               <img
-                src="/src/assets/images/gourmet_avatar_dumpling_1780392533025.png"
+                src="https://i.postimg.cc/ry96jBL4/artisanal-sourdough-1780274060881.jpg"
                 alt="美食寻味"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"

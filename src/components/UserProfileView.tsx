@@ -80,7 +80,7 @@ export default function UserProfileView({
           <div className="flex flex-col md:flex-row items-center gap-6 text-center md:text-left">
             <div className="w-22 h-22 rounded-full overflow-hidden border-4 border-[#FAF8F2]/40 shadow-lg flex-shrink-0 bg-white">
               <img
-                src="/src/assets/images/gourmet_avatar_dumpling_1780392533025.png"
+                src="https://i.postimg.cc/ry96jBL4/artisanal-sourdough-1780274060881.jpg"
                 alt="美食寻味"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"

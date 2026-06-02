@@ -117,7 +117,7 @@ export default function CreateNoteView({ merchants, onSubmitNote, onBack }: Crea
       },
       location: locationText,
       author: "美食寻味",
-      avatar: "/src/assets/images/gourmet_avatar_dumpling_1780392533025.png",
+      avatar: "https://i.postimg.cc/ry96jBL4/artisanal-sourdough-1780274060881.jpg",
       category: categoryName
     };
 

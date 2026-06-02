@@ -833,7 +833,7 @@ export const initialReviews: Review[] = [
     merchantName: "谷物私语",
     user: {
       name: "美食寻味",
-      avatar: "/src/assets/images/gourmet_avatar_dumpling_1780392533025.png",
+      avatar: "https://i.postimg.cc/ry96jBL4/artisanal-sourdough-1780274060881.jpg",
       level: "资深探店 pioneer"
     },
     rating: {
@@ -857,7 +857,7 @@ export const initialReviews: Review[] = [
     merchantName: "苏式三鲜 暖心馄饨",
     user: {
       name: "美食寻味",
-      avatar: "/src/assets/images/gourmet_avatar_dumpling_1780392533025.png",
+      avatar: "https://i.postimg.cc/ry96jBL4/artisanal-sourdough-1780274060881.jpg",
       level: "资深探店 pioneer"
     },
     rating: {
@@ -892,7 +892,7 @@ export const initialReviews: Review[] = [
     },
     content: "慕名去顺昌路。陈爷爷今年真是一边咳嗽一边在红泥炉上用生铁大锅炒，旁边堆满了深红发亮的二荆条山堆。我买了一罐香辣八宝牛肉酱和一罐招牌干煸朝天椒酱。拿回家拌挂面吃，只能用‘极其醇美、鲜麻透皮’来形容。那不是让你胃痛的化学辣椒精，而是菜籽油和肉末、豆豉在长时间翻炒中释放出最底层的大豆发酵油脂香，每一粒辣椒碎片都带着石磨的温厚不规则断面，嚼着特上瘾！强烈推荐！",
     images: [
-      "/src/assets/images/artisan_chili_sauce_1780274088687.png"
+      "https://i.postimg.cc/HkSHWfLJ/artisan-chili-sauce-1780274088687.jpg"
     ],
     date: "2026-05-22 18:20",
     likes: 54,
@@ -963,8 +963,8 @@ export const initialReviews: Review[] = [
     },
     content: "特地挑了个清晨九点半去等晓晓的“玫瑰红豆司康”。司康出炉时还烫手，表皮开裂出金黄粗砂。真正的平阴重瓣玫瑰酱揉入面催化出熟稔的花香。极其难得的是，司康里面的红豆完全不是廉价罐头红豆沙，而是她自己用高山冰糖在紫砂煲慢煨，能清晰咬到沙沙的爆碎颗粒感，外层酥松掉渣，极其温厚。抹上少许天然滴滤原泥黄油，在老弄堂里配热茶，这一上午瞬间无憾！",
     images: [
-      "/src/assets/images/regenerated_image_1780057274921.jpg",
-      "/src/assets/images/regenerated_image_1780057273792.jpg"
+      "https://i.postimg.cc/ZnT45Z6w/regenerated-image-1780057274921.jpg",
+      "https://i.postimg.cc/2yPGxjTv/regenerated-image-1780057273792.jpg"
     ],
     date: "2026-05-26 10:15",
     likes: 23,
@@ -1010,7 +1010,7 @@ export const initialReviews: Review[] = [
     },
     content: "一罐生铁大锅大铲炒辣椒，陈爷爷做了三十几年！弄堂门口堆满了红亮醇厚的干辣椒，还没去呢，在街角就会被空气中干辣温暖的中草药辛香吸引。我最喜欢打上一勺特制九层菜油豆瓣酱，没有辣椒素香精的辣心刺胃，而是陈年霉豆瓣在慢火中渗透出的深醇咸鲜。红亮醇滑的熟辣油里还撒入了黑芝麻 and 白干姜，哪怕拌在最普通的大白饭里，也能让人嚼出大丰收的热烈与踏实，厉害！",
     images: [
-      "/src/assets/images/artisan_chili_sauce_1780274088687.png"
+      "https://i.postimg.cc/HkSHWfLJ/artisan-chili-sauce-1780274088687.jpg"
     ],
     date: "2026-05-21 19:10",
     likes: 19,
@@ -1079,7 +1079,7 @@ export const initialReviews: Review[] = [
     },
     content: "春天的味道全锁在阿婆的竹蒸笼里。阿婆不买市场上的现成艾草粉，而是自己挑着竹筐清晨在山坡采青，手剁成极细的艾草泥和着糯米面。蒸出的青团呈现出一种生机盎然的沉静墨绿色，表面刷了一层淡淡的小磨香油。咬开后，外皮极为软糯却带着微妙的韧劲，满是春余草木那阵清甜的芳香。里面塞满了绵沙温润的赤小豆细沙，清甜适口，丝丝毫毫不腻，还能吃到艾草残留的极细纤维。这就是记忆里外婆亲手做出的质朴味道，两块钱一个，太有人情温存了！",
     images: [
-      "https://images.unsplash.com/photo-1513530534585-c7b1394c6d51?auto=format&fit=crop&q=80&w=400"
+      "https://i.postimg.cc/SRccL6P5/floss-yolk-qingtuan-1780320786151.jpg"
     ],
     date: "2026-05-30 14:15",
     likes: 28,

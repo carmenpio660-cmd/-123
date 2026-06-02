@@ -173,7 +173,7 @@ export default function CommunityReviewsView({
       merchantName: chosenMerchant.name,
       user: {
         name: "美食寻味",
-        avatar: "/src/assets/images/gourmet_avatar_dumpling_1780392533025.png",
+        avatar: "https://i.postimg.cc/ry96jBL4/artisanal-sourdough-1780274060881.jpg",
         level: "探店先锋"
       },
       rating: {
@@ -629,7 +629,7 @@ export default function CommunityReviewsView({
                     <div className="flex items-center gap-2.5">
                       <div className="w-9 h-9 rounded-full overflow-hidden border border-amber-900/10">
                         <img
-                          src="/src/assets/images/gourmet_avatar_dumpling_1780392533025.png"
+                          src="https://i.postimg.cc/ry96jBL4/artisanal-sourdough-1780274060881.jpg"
                           alt="Avatar"
                           className="w-full h-full object-cover"
                           referrerPolicy="no-referrer"
