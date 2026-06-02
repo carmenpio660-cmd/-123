@@ -940,7 +940,7 @@ export const initialReviews: Review[] = [
     content: "崇明牧场清爽的鲜榨牛奶在愚园路的老洋房梧桐下午终于吃到了！娜玛师傅倡导的自然滴滤奶酪，做成了云朵状的慕斯奶豆腐，表面裹满了手工搓碎的鲜酸樱野莓砂。抿在口中是天然纯净的微咸与脂香，没有一丝一毫工业香精和增稠剂的粘腻！在满院薄荷与迷迭香的露台上，看老砖瓦在阳光下微闪，吃下一口轻盈酸爽，全身都被这质朴美好的大自然风味治愈了！",
     images: [
       "https://images.unsplash.com/photo-1552611052-33e04de081de?auto=format&fit=crop&q=80&w=400",
-      "https://images.unsplash.com/photo-1517433456452-f9633a875f6f?auto=format&fit=crop&q=80&w=400"
+      "https://i.postimg.cc/bYSgNbmv/herbal-chicken-soup-1780321367407.jpg"
     ],
     date: "2026-05-27 12:10",
     likes: 31,
